@@ -12,15 +12,15 @@ chat_id = "@datinganon_bot"
 @app.on_message(chat_id)
 async def spam(client: Client, message: types.Message):
     if "Вам найден собеседник, начинайте диалог." in message.text:  # Меняем это значение если хотим спамить в другом чате
-        sleep(1.8)
+        sleep(1.5)
         await app.send_message(chat_id, "Приветик, я девушка, а ты?")
-        sleep(2)
-        await app.send_message(chat_id, "Мой парень залил мне полный рот спермы и потом засунул свой.... Хочешь посмотреть?)  ")
+        sleep(1.5)
+        await app.send_message(chat_id, "Мой парень залил мне полный рот спермы и потом засунул свой.... Хочешь посмотреть?) https://t.me/shoriof  ")
 
         if 'Вам найден собеседник, начинайте диалог.' in message.text:
-             sleep(1.7)
+             sleep(1.5)
              await app.send_sticker(chat_id, "CAACAgIAAxkBAAEHimRj2kEWCMHcI883ffJ3kFbpijS7NgAC5yQAAgTbuErwHbfUyBhwFi4E")
-             sleep(2)
+             sleep(1.5)
 
              if "Вам найден собеседник, начинайте диалог."  in message.text:  # Меняем это значение если хотим спамить в другом чате
                  await app.send_message(chat_id, "/stop")
