@@ -13,9 +13,9 @@ chat_id = "@datinganon_bot"
 async def spam(client: Client, message: types.Message):
     if "Вам найден собеседник, начинайте диалог." in message.text:  # Меняем это значение если хотим спамить в другом чате
         sleep(1.3)
-        await app.send_message(chat_id, "Приветик, хочешь трахаться? я очень)")
+        await app.send_message(chat_id, "Приветик д, ты?")
         sleep(1.5)
-        await app.send_message(chat_id, "тут я кончила 18 раз от руки хочешь посмотреть?) https://t.me/shoriof  ")
+        await app.send_message(chat_id, "Мы можем подрочить по видео) или просто посмотри как я кончаю)  ")
 
         if 'Вам найден собеседник, начинайте диалог.' in message.text:
              sleep(1.5)
